@@ -19,6 +19,7 @@
     "level-party": "^1.0.1",
     "level-promisify": "^2.0.0-rc",
     "level-sublevel": "^6.4.6",
+    "node-uuid": "^1.4.3",
     "osenv": "^0.1.0"
   },
   "devDependencies": {
