@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Name Generator",
   "main": "index.js",
+  "files": [
+     "index.js",
+     "lib/server.js" 
+  ],
   "scripts": {
     "start": "./bin/start",
     "test": "echo \"Error: no test specified\" && exit 1"
