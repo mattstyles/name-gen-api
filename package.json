@@ -2,10 +2,10 @@
   "name": "name-gen",
   "version": "0.1.0",
   "description": "Name Generator",
-  "main": "index.js",
+  "main": "lib/server.js",
   "files": [
-     "index.js",
-     "lib/server.js" 
+    "index.js",
+    "lib/server.js"
   ],
   "scripts": {
     "start": "./bin/start",
@@ -13,7 +13,8 @@
   },
   "config": {
     "port": 14320,
-    "dbpath": ".name-gen/names.lev"
+    "dbpath": ".name-gen",
+    "dbname": "names.lev"
   },
   "author": "Matt Styles",
   "repository": "git://github.com/Matt Styles/name-gen.git",
@@ -23,6 +24,7 @@
     "level-party": "^1.0.1",
     "level-promisify": "^2.0.0-rc",
     "level-sublevel": "^6.4.6",
+    "mkdirp": "^0.5.0",
     "node-uuid": "^1.4.3",
     "osenv": "^0.1.0"
   },
