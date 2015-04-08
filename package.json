@@ -1,7 +1,7 @@
 {
-  "name": "name-gen",
+  "name": "name-gen-api",
   "version": "0.1.0",
-  "description": "Name Generator",
+  "description": "Name generator db api",
   "main": "lib/server.js",
   "files": [
     "index.js",
@@ -17,7 +17,7 @@
     "dbname": "names.lev"
   },
   "author": "Matt Styles",
-  "repository": "git://github.com/Matt Styles/name-gen.git",
+  "repository": "git://github.com/mattstyles/name-gen-api.git",
   "license": "WTFPL",
   "dependencies": {
     "babel": "^5.0.8",
