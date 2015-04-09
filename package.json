@@ -1,7 +1,7 @@
 {
-  "name": "name-gen-api",
+  "name": "moniker-api",
   "version": "0.1.0",
-  "description": "Name generator db api",
+  "description": "Moniker database koa api",
   "main": "lib/server.js",
   "files": [
     "index.js",
@@ -17,7 +17,7 @@
     "dbname": "names.lev"
   },
   "author": "Matt Styles",
-  "repository": "git://github.com/mattstyles/name-gen-api.git",
+  "repository": "git://github.com/monikerjs/moniker-api.git",
   "license": "WTFPL",
   "dependencies": {
     "babel": "^5.0.8",

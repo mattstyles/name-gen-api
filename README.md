@@ -1,3 +1,3 @@
-# name-gen
+# Moniker api
 
-> Simplest koa static server
+> Koa served Moniker web api
