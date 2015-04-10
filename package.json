@@ -1,6 +1,6 @@
 {
   "name": "moniker-api",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Moniker database koa api",
   "main": "lib/server.js",
   "files": [
@@ -13,7 +13,7 @@
   },
   "config": {
     "port": 14320,
-    "dbpath": ".name-gen",
+    "dbpath": ".moniker-test",
     "dbname": "names.lev"
   },
   "author": "Matt Styles",
