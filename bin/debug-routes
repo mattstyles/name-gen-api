@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+require( 'babel/register' )({
+    optional: [
+        'asyncToGenerator'
+    ]
+});
+
+
+console.log();
+var Router = require( '../lib/routes/router' );
+var router = new Router();
+
+router.debugRoutes();
+
+console.log();
+process.exit( 0 );

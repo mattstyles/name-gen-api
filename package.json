@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "start": "./bin/start",
+    "debug-routes": "./bin/debug-routes",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "config": {
